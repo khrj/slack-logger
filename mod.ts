@@ -3,10 +3,10 @@
  * Severity levels for log entries
  */
 export enum LogLevel {
-    ERROR = 'error',
-    WARN = 'warn',
-    INFO = 'info',
-    DEBUG = 'debug',
+    ERROR = "error",
+    WARN = "warn",
+    INFO = "info",
+    DEBUG = "debug",
 }
 
 /**
@@ -89,7 +89,7 @@ export class ConsoleLogger implements Logger {
 
     constructor() {
         this.level = LogLevel.INFO
-        this.name = ''
+        this.name = ""
     }
 
     public getLevel(): LogLevel {
